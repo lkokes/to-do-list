@@ -1,4 +1,18 @@
-document.querySelector('#push').onclick = function(){
+var input = document.querySelector("#myInput");
+var button = document.querySelector('#push');
+
+input.addEventListener("keyup", (event) => {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        addTask();
+   }
+});
+
+button.addEventListener("click", () => {
+        addTask();
+});
+
+function addTask(){
     if (document.querySelector('#newtask input').value.length === 0)
     {
         alert("Please enter a task")
@@ -31,3 +45,4 @@ document.querySelector('#push').onclick = function(){
         document.querySelector('#newtask input').value = '';
     }
 }
+
