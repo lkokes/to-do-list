@@ -8,7 +8,7 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(343deg, #67d9607d, #00b056);
+  background: url(./img/wood.jpg);
 }
 
 h1 {
@@ -17,9 +17,9 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 4px;
   word-spacing: 12px;
-  margin-top: 56px;
-  color: #33328b;
+  color: #0e0463;
   font-family: "Carter One", cursive;
+  padding-top: 20px;
 }
 
 .container {
@@ -27,7 +27,7 @@ h1 {
   min-width: 450px;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 40%;
   left: 50%;
   padding: 30px 40px;
 }
