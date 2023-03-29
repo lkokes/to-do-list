@@ -1,6 +1,6 @@
-To do list je jednoduchá webová aplikácia na ukladanie vašich úloh, aby vám nič neušlo.
+To do list is a simple web application to save your tasks so you don't miss anything.
 
-- pridávanie nových úloh
-- mazanie dokončených úloh
+- adding new tasks
+- deleting completed tasks
 
 ![alt text](./img/todolist.png)
